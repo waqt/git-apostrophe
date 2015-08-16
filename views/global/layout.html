@@ -24,8 +24,8 @@
       <div class="inner demo-inner">
         <header>
           <div class="demo-header bg-red">
-            <h5>{% block headerMessage %}You are using the Apostrophe demo site.{% endblock %}</h5>
-            <p>Content in the demo can be edited in context by clicking on the pencil of each content type. Feel free to mess anything up, this page will automatically refresh every hour restoring the original content. If anything seems strange, someone else using the demo site has likely made a change. Check out <a href="http://apostrophenow.org" target="blank">apostrophenow.org</a> for more information.</p>
+            <h5>{% block headerMessage %}快点第三方电器售后平台{% endblock %}</h5>
+            <p> <a href="#download" ><h5>Download APP</h5></a></p>
           </div>
           {{ nav(page, {classes: 'hide-mobile'}) }}
           <a href="#" class="off-canvas-trigger hide-desktop">
@@ -43,6 +43,7 @@
     {% block headerBackground %}{% endblock %}
 
   </div>
+
 {% endblock %}
 
 {% block main %}
@@ -61,7 +62,7 @@
 
 {% block footer %}
   <footer class="block footer">
-    <div class="inner">
+<!--     <div class="inner">
       {% block footerContent %}
         <div class="inline-middle width-50">
           Apostrophe is led by <a href="http://punkave.com">P'unk Avenue</a> in Philadelphia, PA.
@@ -72,10 +73,23 @@
           </a>
         </div>
       {% endblock %}
+    </div> -->
+     <div id="footer" class="inner">
+      <div class="container">
+          <h5>联系我们</h5>
+            <div class="row contact">
+              <div class="col-xs-12"> <span>客服电话：0574-27614820（工作时间08:00-22:00）</span> <span>公司地址：宁波市江东区颐高创业大厦11楼</span></div>
+            </div>
+            
+            <div class="copyright" >
+              <p>Copyright ©2015 宁波快点网络科技有限公司 <a href="http://www.miitbeian.gov.cn/" class="yellow" target="_blank" style="text-decoration:none;color:#fff">浙ICP备14033859号 </a>&nbsp;&nbsp;<br>
+              </p>
+            </div>
+        </div>
     </div>
     <div class="inner">
       <div class="linode-credit">
-        Generously hosted by <a href="http://linode.com">linode</a>.
+        Generously hosted by <a href="http://apostrophenow.org">apostrophe</a>.
       </div>
     </div>
   </footer>

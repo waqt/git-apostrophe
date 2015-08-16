@@ -9,9 +9,9 @@ site.init({
   root: module,
   shortName: 'apostrophe-sandbox',
   hostName: 'apostrophe-sandbox',
-  title: 'Apostrophe Sandbox',
+  title: '快点|电器管理专家，最专业的电器售后服务平台',
   sessionSecret: 'apostrophe sandbox demo party',
-  adminPassword: 'demo',
+  adminPassword: 'ikuaidian918',
 
   // Force a2 to prefix all of its URLs. It still
   // listens on its own port, but you can configure
